@@ -1,0 +1,18 @@
+/* Footer Contact Button */
+
+.fa-comment {
+    color: white;
+}
+
+hr {
+    margin: 2px;
+    height: 1px;
+}
+
+.contact {
+    text-align: center;
+}
+
+aside .offcanvas-aside {
+    background-image: url('img/contact.jpg');
+}

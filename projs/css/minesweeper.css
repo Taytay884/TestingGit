@@ -1,0 +1,135 @@
+html {
+    background-color: white;
+}
+
+body {
+    margin: 20px auto;
+    width: 70%;
+    text-align: center;
+    background-color: rgb(0, 174, 255);
+    font-family: 'Tahoma';
+    padding: 40px 0px;
+    border: 2px solid rgb(0, 174, 255);
+    border-radius: 5%;
+}
+
+table {
+    margin: 4px auto;
+    border: 2px solid rgba(255, 255, 255, 0.4)
+}
+
+h1 {
+    font-size: 70px;
+    background-color: lightskyblue;
+    margin: 0;
+    color: white;
+}
+
+.difficult-btns {
+    text-align: left;
+    background-color: lightskyblue;
+    padding-left: 20px;
+}
+
+.difficult-btn {
+    background-color: lightskyblue;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    transition: background-color, 0.5s;
+}
+
+.difficult-btn:hover {
+    background-color:rgb(0, 174, 255);
+}
+
+td {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    font-size: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+td.hard {
+    height: 18px;
+    width: 18px;
+    font-size: 12px;
+}
+
+td:hover {
+    background-color: rgba(143, 119, 230, 0.567)
+}
+
+/* used for the cells. */
+.marked {
+    background-color: orange;
+}
+
+.selected {
+    background-color: rgb(89, 255, 67);
+}
+
+/* used for the difficult btn */
+.selected-btn {
+    background-color:rgb(0, 174, 255);
+}
+
+.info-container {
+    height: 40px;
+    text-align:center;
+    /* margin-top: 2px; */
+    /* padding-bottom: 5px; */
+    padding: 4px 0px;
+    border-bottom: 2px rgba(255, 255, 255, 0.5) solid;
+    border-radius: 10%;
+}
+
+.info-block {
+    display: inline-block;
+    width: 30%;
+    margin: auto 0%;
+    height: auto;
+    padding: 10px 0px;
+    text-align:center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.usr-msg {
+    height: 40px;
+    text-align:center;
+    margin-top: 0px;
+}
+
+h3 {
+    border: none;
+    color: rgb(89, 255, 67);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#new-game-btn {
+    background-color:rgba(0, 255, 76, 0.705);
+    border: none;
+    color: white;
+    text-align: center;
+    display: none;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: display, 0.5s;
+    margin: 10px auto;
+    transition: 2s;
+    /* display:none; */
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/minesweeper.css">
+</head>
+
+<body>
+    <h1>Mine Sweeper</h1>
+    <div class="difficult-btns">
+        <button id="easy-btn" class="difficult-btn" onclick="setDifficult(this, 1)">Easy</button>
+        <button id="medium-btn" class="difficult-btn" onclick="setDifficult(this, 2)">Medium</button>
+        <button id="hard-btn" class="difficult-btn" onclick="setDifficult(this, 3)">Hard</button>
+    </div>
+    <div class="info-container">
+        <h4 class="info-block">Cells:
+            <span id="cells-count">0</span>
+        </h4>
+        <h4 class="info-block">Marked:
+            <span id="marked-count">0</span>
+        </h4>
+        <h4 class="info-block">Timer:
+            <span id="game-timer">0</span>
+        </h4>
+    </div>
+    <div class="usr-msg">
+        <h3 id="usr-msg"></h3>
+    </div>
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+    <div>
+        <button id="new-game-btn" class="difficult-btn" onclick="resetGame(); newGame();">New Game?</button>
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="js/minesweeper.js"></script>
+</body>
+
+</html>

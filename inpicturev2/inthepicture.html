@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>IN - PICTURE</title>
+</head>
+
+<body>
+    <div class="modal-container">
+        <div class="score-block">
+            <h4 class="score-block">Your Score
+                <br>
+                <span id="score">0</span>
+            </h4>
+            <button class="restart-button" onclick="initGame()"><img src="img/restart.png"></button>
+        </div>
+
+    </div>
+    <header>
+        <h1>In - Picture!</h1>
+    </header>
+    <main>
+        <img class="stewie-pic" src="img/questman.png">
+        <div class="txt-block question-block">
+            <!-- <div>Question:</div> -->
+            <h2>Question:
+                <span id="question">question?</span>
+            </h2>
+            <img src="" alt="Question Image." class="question-image" />
+        </div>
+        <div class="clear-both"></div>
+        <div class="info-container">
+            <h1 class="usr-msg">Victory!</h1>
+
+        </div>
+        <div class="answer-container">
+            <button id="ans-btn0" class="txt-block answer" onclick="checkAnswer(0)"></button>
+            <button id="ans-btn1" class="txt-block answer" onclick="checkAnswer(1)"></button>
+        </div>
+    </main>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

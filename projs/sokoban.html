@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SOKOBAN</title>
+    <link rel="stylesheet" href="css/sokoban.css">
+</head>
+
+<body onkeydown="checkKey()">
+    <h1>SOKOBAN</h1>
+    <div class="info-container">
+        <h4 class="info-block">Score:
+            <span id="score-count">0</span>
+        </h4>
+        <h4 class="info-block">Steps:
+            <span id="steps-count">0</span>
+        </h4>
+        <h4 class="info-block">Timer:
+            <span id="game-timer">0</span>
+        </h4>
+    </div>
+    <div class="usr-msg">
+        <h3 id="usr-msg"></h3>
+    </div>
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+    <div>
+        <button id="new-game-btn" class="difficult-btn" onclick="resetGame(); startGame();">New Game?</button>
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="js/sokoban.js"></script>
+</body>
+
+</html>

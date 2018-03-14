@@ -1,0 +1,28 @@
+body {
+    height: 1000px;
+}
+
+.balloon {
+    width: 170px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    transition: opacity 1s;
+}
+
+.balloon1 {
+    background-color: yellow;
+    left: 15px;
+}
+
+.balloon2 {
+    background-color: green;
+    left: 150px;
+    bottom: 50px;
+}
+
+.balloon-bottom, .balloon-speed {
+    margin-top: 20px;
+    font-weight: bold;
+}

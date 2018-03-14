@@ -1,0 +1,126 @@
+html {
+    background-color: white;
+}
+
+body {
+    margin: 10px auto;
+    width: 70%;
+    text-align: center;
+    background-color: rgb(0, 174, 255);
+    font-family: 'Tahoma';
+    padding: 20px 0px;
+    border: 2px solid rgb(0, 174, 255);
+    border-radius: 5%;
+}
+
+h1 {
+    margin-top: 0px;
+    font-size: 50px;
+    margin-bottom: 0;
+    color: white;
+}
+
+table {
+    margin: 10px auto;
+    border: 2px solid rgba(255, 255, 255, 0.4)
+}
+
+td {
+    max-height: 60px;
+    max-width: 60px;
+    font-size: 20px;
+    height: 60px;
+    width: 60px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#usr-msg {
+    font-size: 40px;
+    text-align:center;
+    margin:0;
+    margin-top: 10px;
+    color:rgb(255, 0, 140);
+    text-shadow: teal;
+}
+
+.info-container {
+    height: 40px;
+    text-align:center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px rgba(255, 255, 255, 0.5) solid;
+    border-radius: 10%;
+}
+
+.info-block {
+    display: inline-block;
+    width: 30%;
+    margin: auto 0%;
+    height: auto;
+    padding: 10px 0px;
+    text-align:center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.floor {
+    background-color: white;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTWpHgTsOCazzWgpSvOg92rKfFvhAy41xosyZUFbdtpASGrXyQ') center no-repeat;
+    /* background-size:60px; */
+    background-repeat: no-repeat;
+}
+
+.floor.glue {
+    background: url('http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/simple-red-square-icons-signs/129495-simple-red-square-icon-signs-road-stop-sign-sc44.png') center no-repeat;
+    background-size:120px;
+}
+
+.floor.water {
+    background: url('https://d30y9cdsu7xlg0.cloudfront.net/png/1138155-200.png') center no-repeat;
+    background-size:80px;
+}
+
+.wall {
+    background-color: gray;
+    background: url('https://thumb7.shutterstock.com/mosaic_250/486355/486355,1275254564,1/stock-photo-red-brick-wall-square-format-54195736.jpg') center no-repeat;
+    background-size:120px;
+    background-repeat: no-repeat;
+}
+
+.target {
+    /* background-color: gold; */
+    background: url('https://cdn1.iconfinder.com/data/icons/business-finance-3/32/target-512.png') center no-repeat;
+    background-size: 60px;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 50px;
+    height: auto;
+}
+
+.target.box {
+    background-color: orangered;
+}
+
+
+
+
+#new-game-btn {
+    background-color:rgba(0, 225, 255, 0.705);
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 40px;
+    transition: display, 0.5s;
+    margin: 0px auto;
+    /* display:none; */
+}
